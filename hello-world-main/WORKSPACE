@@ -1,0 +1,4 @@
+local_repository(
+    name = "hello-world-lib",
+    path = "../hello-world-lib",
+)
