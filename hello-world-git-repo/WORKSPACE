@@ -1,0 +1,7 @@
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+
+git_repository(
+    name = "hello-world-repo",
+    remote = "git@github.com:zhouxindong/hello-world-repo.git",
+    branch = "master",
+)
