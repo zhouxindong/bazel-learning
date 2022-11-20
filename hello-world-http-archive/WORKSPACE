@@ -1,0 +1,7 @@
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
+http_archive(
+    name = "hello-world-repo",
+    urls = ["file:/home/zhouxd/temp/hello-world-archive/hello-world.tar.gz",
+            "https://bazel-learning.zhouxd.com/hello-world.tar.gz"],
+)
